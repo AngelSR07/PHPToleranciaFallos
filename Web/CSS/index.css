@@ -1,0 +1,98 @@
+:root{
+    --colorTexto:  #49454567;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto';
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+
+    margin-bottom: 80px;
+}
+    
+
+.buttonIndex{
+    background: linear-gradient(102deg, #2c3e50 40%, #34495e 60%);
+    color: white;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-bottom: 35px auto;
+    border-radius: .25rem;
+    min-width: 200px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+}
+
+.buttonIndex:hover{
+    background: #95a5a6
+}
+
+
+@keyframes pulse {
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, .1);
+    }
+
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 25px rgba(255, 255, 255, 0);
+    }
+
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+
+
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    font-size: 26px ;
+}
+
+h2{
+    margin: 5px auto;
+}
+
+h3{
+    margin: 5px auto;
+    color: black;
+}
+
